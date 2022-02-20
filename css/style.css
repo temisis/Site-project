@@ -1,0 +1,47 @@
+body {
+  text-align: center;
+  font-family: Open Sans, sans-serif;
+  background: linear-gradient(35deg, #CCFFFF, #FFCCCC);
+  background-image: url('/img/PLA.jpg');
+  background-size: cover;
+  color: #000000;
+  margin: 10px;
+  margin-bottom: 30px;
+}
+
+h1 {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style-type: none;
+  line-height: 2;
+  padding-left: 0;
+}
+
+
+.tipos { 
+  background-color: #D2B48C;
+  max-width:42%;
+  margin: auto;
+  align-content: center
+  position: fixed;
+  top: 100px;
+}
+
+.tipos li {
+  display: inline-block;
+  line-height: 2.5;
+  margin: 0 2px;
+}
+
+a:link{
+  text-decoration: none;
+  color: black;
+}
+a:visited {
+  text-decoration: none;
+  color: blue;
+}
