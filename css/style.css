@@ -23,7 +23,7 @@ ul {
 
 
 .tipos { 
-  background-color: #D2B48C;
+  background-color: #f7f1ea;
   max-width:42%;
   margin: auto;
   align-content: center
@@ -43,5 +43,228 @@ a:link{
 }
 a:visited {
   text-decoration: none;
-  color: blue;
+  color: black;
+}
+
+#agua:hover {
+  animation-name: background-color-agua;
+  animation-duration: 500ms;
+  animation-fill-mode: forwards;
+}
+
+@keyframes background-color-agua {
+    100% {
+      background-color: #6390F0;
+    }
+}
+#dragao:hover {
+  animation-name: background-color-dragao;
+  animation-duration: 500ms;
+  animation-fill-mode: forwards;
+}
+
+@keyframes background-color-dragao {
+    100% {
+      background-color: #6F35FC;
+    }
+}
+
+#eletrico:hover {
+  animation-name: background-color-eletrico;
+  animation-duration: 500ms;
+  animation-fill-mode: forwards;
+}
+
+@keyframes background-color-eletrico {
+    100% {
+      background-color: #F7D02C;
+    }
+}
+
+#fada:hover {
+  animation-name: background-color-fada;
+  animation-duration: 500ms;
+  animation-fill-mode: forwards;
+}
+
+@keyframes background-color-fada {
+    100% {
+      background-color: #D685AD;
+    }
+}
+
+#fantasma:hover {
+  animation-name: background-color-fantasma;
+  animation-duration: 500ms;
+  animation-fill-mode: forwards;
+}
+
+@keyframes background-color-fantasma {
+    100% {
+      background-color: #735797;
+    }
+}
+
+#fogo:hover {
+  animation-name: background-color-fogo;
+  animation-duration: 500ms;
+  animation-fill-mode: forwards;
+}
+
+@keyframes background-color-fogo {
+    100% {
+      background-color: #EE8130;
+    }
+}
+
+#gelo:hover {
+  animation-name: background-color-gelo;
+  animation-duration: 500ms;
+  animation-fill-mode: forwards;
+}
+
+@keyframes background-color-gelo {
+    100% {
+      background-color: #96D9D6;
+    }
+}
+
+#grama:hover {
+  animation-name: background-color-grama;
+  animation-duration: 500ms;
+  animation-fill-mode: forwards;
+}
+
+@keyframes background-color-grama {
+    100% {
+      background-color: #7AC74C;
+    }
+}
+
+#inseto:hover {
+  animation-name: background-color-inseto;
+  animation-duration: 500ms;
+  animation-fill-mode: forwards;
+}
+
+@keyframes background-color-inseto {
+    100% {
+      background-color: #A6B91A;
+    }
+}
+
+#lutador:hover {
+  animation-name: background-color-lutador;
+  animation-duration: 500ms;
+  animation-fill-mode: forwards;
+}
+
+@keyframes background-color-lutador {
+    100% {
+      background-color: #C22E28;
+    }
+}
+
+#metal:hover {
+  animation-name: background-color-metal;
+  animation-duration: 500ms;
+  animation-fill-mode: forwards;
+}
+
+@keyframes background-color-metal {
+    100% {
+      background-color: #B7B7CE;
+    }
+}
+
+#normal:hover {
+  animation-name: background-color-normal;
+  animation-duration: 500ms;
+  animation-fill-mode: forwards;
+}
+
+@keyframes background-color-normal {
+    100% {
+      background-color: #A8A77A;
+    }
+}
+
+#noturno:hover {
+  animation-name: background-color-noturno;
+  animation-duration: 500ms;
+  animation-fill-mode: forwards;
+}
+
+@keyframes background-color-noturno {
+    100% {
+      background-color: #705746;
+    }
+}
+
+#pedra:hover {
+  animation-name: background-color-pedra;
+  animation-duration: 500ms;
+  animation-fill-mode: forwards;
+}
+
+@keyframes background-color-pedra {
+    100% {
+      background-color: #B6A136;
+    }
+}
+
+#psiquico:hover {
+  animation-name: background-color-psiquico;
+  animation-duration: 500ms;
+  animation-fill-mode: forwards;
+}
+
+@keyframes background-color-psiquico {
+    100% {
+      background-color: #F95587;
+    }
+}
+
+#terra:hover {
+  animation-name: background-color-terra;
+  animation-duration: 500ms;
+  animation-fill-mode: forwards;
+}
+
+@keyframes background-color-terra {
+    100% {
+      background-color: #E2BF65;
+    }
+}
+
+#veneno:hover {
+  animation-name: background-color-veneno;
+  animation-duration: 500ms;
+  animation-fill-mode: forwards;
+}
+
+@keyframes background-color-veneno {
+    100% {
+      background-color: #A33EA1;
+    }
+}
+
+#voador:hover {
+  animation-name: background-color-voador;
+  animation-duration: 500ms;
+  animation-fill-mode: forwards;
+}
+
+@keyframes background-color-voador {
+    100% {
+      background-color: #A98FF3;
+    }
+}
+
+h2 {
+  text-align: center;
+  margin-left: 380px;
+  width: 40%;
+  background-color: #f7f1ea;
+  font-weight: 200;
 }
