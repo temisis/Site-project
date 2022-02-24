@@ -2,7 +2,7 @@ body {
   text-align: center;
   font-family: Open Sans, sans-serif;
   background: linear-gradient(35deg, #CCFFFF, #FFCCCC);
-  background-image: url('/img/PLA.jpg');
+  background-image: url('img/PLA.jpg');
   background-size: cover;
   color: #000000;
   margin: 10px;
@@ -24,10 +24,9 @@ ul {
 
 .tipos { 
   background-color: #f7f1ea;
-  max-width:42%;
+  max-width:28%;
   margin: auto;
-  align-content: center
-  position: fixed;
+  align-content: center;
   top: 100px;
 }
 
@@ -263,7 +262,8 @@ a:visited {
 
 h2 {
   text-align: center;
-  margin-left: 380px;
+  margin-top: 300px;
+  margin-left: 575px;
   width: 40%;
   background-color: #f7f1ea;
   font-weight: 200;
