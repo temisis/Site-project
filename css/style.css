@@ -261,9 +261,13 @@ a:visited {
 }
 
 h2 {
-  background-color: #f7f1ea;
   font-weight: 200;
-  max-width: 55%;
+  background-color: #f7f1ea;
+  color: #6F35FC;
+  max-width: 30%;
   align-content: center;
   margin: auto;
+  text-align: center;
+  padding: 10px;
+  margin-top: 100px;
 }
