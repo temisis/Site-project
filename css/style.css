@@ -1,7 +1,7 @@
 body {
   text-align: center;
   font-family:'Outfit', sans-serif;
-  background: linear-gradient(35deg, #CCFFFF, #FFCCCC);
+  background-color: #f1dac0;
   color: #000000;
   margin: 10px;
   margin-bottom: 30px;
@@ -16,6 +16,11 @@ h1 {
   color:rgb(37, 24, 4);
 }
 
+img {
+  width: 50%;
+  opacity: 0.5;
+}
+
 ul {
   list-style-type: none;
   line-height: 2;
@@ -23,11 +28,12 @@ ul {
   font-family: 'Times New Roman', Times, serif;
   font-weight: bold;
   font-size: 110%;
+  margin-top: 1.1em;
 }
 
 
 .tipos { 
-  background-color: #f7f1ea;
+  background-color: #f1dac0;
   max-width:35%;
   margin: auto;
   align-content: center;
@@ -269,12 +275,12 @@ h2 {
   font-weight: 800;
   font-size: 1.5em;
   line-height: 2;
-  background-color: #f7f1ea;
+  background-color: #f1dac0;
   color: #6F35FC;
   max-width: 30%;
   align-content: center;
   margin: auto;
   text-align: center;
   padding: 10px;
-  margin-top: 100px;
+  margin-top: 1.1em;
 }
