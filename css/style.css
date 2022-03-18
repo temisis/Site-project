@@ -3,21 +3,19 @@ body {
   font-family:'Outfit', sans-serif;
   background-color: #f1dac0;
   color: #000000;
-  margin: 10px;
-  margin-bottom: 30px;
 }
 
 h1 {
   text-align: center;
   font-family: 'Outfit', sans-serif;
-  font-size: 400%;
+  font-size: 300%;
   font-weight: 500;
-  margin: 2%;
+  margin: 1.5%;
   color:rgb(37, 24, 4);
 }
 
 img {
-  width: 50%;
+  width: 60rem;
   opacity: 0.5;
 }
 
@@ -31,19 +29,18 @@ ul {
   margin-top: 1.1em;
 }
 
-
 .tipos { 
   background-color: #f1dac0;
   max-width:35%;
   margin: auto;
   align-content: center;
-  top: 100px;
+  top: 1.5%;
 }
 
 .tipos li {
   display: inline-block;
   line-height: 2.5;
-  margin: 0 5px;
+  margin: 0 0.3em;
   font-family: 'Outfit', sans-serif;
 }
 
@@ -281,6 +278,6 @@ h2 {
   align-content: center;
   margin: auto;
   text-align: center;
-  padding: 10px;
+  padding: 0.2rem;
   margin-top: 1.1em;
 }
