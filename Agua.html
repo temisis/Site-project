@@ -1,82 +1,348 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <title>Água</title>
-    <link href="css/reset.css" rel="stylesheet" type="text/css"/>
-    <link href="css/agua.css" rel="stylesheet" type="text/css"/>
+    <link href="css/reset.css" rel="stylesheet" type="text/css" />
+    <link href="css/agua.css" rel="stylesheet" type="text/css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap" rel="stylesheet">
   </head>
-  <body>
-      <h1>Todos os pokémon de água em Pokémon Legend: Arceus</h1>
 
-      <nav>
-        <main>
-          <table>
-                <thead>
-                    <tr>
-                        <th>Pokémon Name</th>
-                        <th>Tipo 1</th>
-                        <th>Tipo 2</th>
-                        <th>Lugares encontrados</th>
-                        <th>Só é encontrado em distorção de tempo e espaço?</th>
-                        <th>Capturado?</th>
-                    </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td>Oshawott</td>
-                    <td>Água</td>
-                    <td>--</td>
-                    <td><p>Alabaster Icelands - Arena Approach/Bone Chill Wastes/Heart's Crag</p></td>
-                    <td>Sim - Muito Comum</td>
-                    <td><input type ="checkbox">Sim</td>
-                  </tr>
-                  <tr>
-                    <td>Dewott</td>
-                    <td>Água</td>
-                    <td>--</td>
-                    <td><p>Alabaster Icelands - Arena Approach/Bone Chill Wastes/Heart's Crag</p></td>
-                    <td>Sim - Raro</td>
-                    <td><input type ="checkbox">Sim</td>
-                  </tr>
-                  <tr>
-                    <td>Hisuian Samurott</td>
-                    <td>Água</td>
-                    <td>Noturno</td>
-                    <td><p>Alabaster Icelands - Arena Approach/Bone Chill Wastes/Heart's Crag</p></td>
-                    <td>Sim - Muito Raro</td>
-                    <td><input type ="checkbox">Sim</td>
-                  </tr>
-                  <tr>
-                    <td>Bibarel</td>
-                    <td>Normal</td>
-                    <td>Água</td>
-                    <td>
-                      <p>Obsidian Fieldlands - Tidewater Dam (Alpha)</p> 
-                      <p>Crimson Mirelands - Gapejaw Bog (perto da marcação de Golden Lowlands)/Drowning Meadow</p><p>Cobalt Coastlands - Spring Path (perto de Islespy Shore)</p>
-                      <p>Alabaster Icelands - Avalugg's Legacy</p>
-                   </td>
-                   <td>Não</td>
-                   <td><input type ="checkbox">Sim</td>
-                  </tr>
-                  <tr>
-                    <td>Vaporeon</td>
-                    <td>Água</td>
-                    <td>--</td>
-                    <td>
-                      <p>Obtido apenas por meio de evolução de Eevee, com uma pedra de água (water stone)</p> 
-                   </td>
-                   <td>Não</td>
-                   <td><input type ="checkbox">Sim</td>
-                  </tr>
-              </tbody>
-          </table> 
-        </main>
-      </nav>
+  <body>
+    <h1>Todos os pokémon de água em Pokémon Legend: Arceus</h1>
+      <main>
+        <table>
+          <thead>
+            <tr>
+              <th>Pokémon Name</th>
+              <th>Tipo 1</th>
+              <th>Tipo 2</th>
+              <th>Lugares encontrados</th>
+              <th>Só é encontrado em distorção de tempo e espaço?</th>
+              <th>Falta ser capturado?</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Oshawott</td>
+              <td>Água</td>
+              <td>--</td>
+              <td>
+                <p lang="en">Alabaster Icelands - Arena Approach/Bone Chill Wastes/Heart's Crag</p>
+              </td>
+              <td>Sim - Muito Comum</td>
+              <td><input type="checkbox">Sim</td>
+            </tr>
+            <tr>
+              <td>Dewott</td>
+              <td>Água</td>
+              <td>--</td>
+              <td>
+                <p lang="en">Alabaster Icelands - Arena Approach/Bone Chill Wastes/Heart's Crag</p>
+              </td>
+              <td>Sim - Raro</td>
+              <td><input type="checkbox">Sim</td>
+            </tr>
+            <tr>
+              <td>Hisuian Samurott</td>
+              <td>Água</td>
+              <td>Noturno</td>
+              <td>
+                <p lang="en">Alabaster Icelands - Arena Approach/Bone Chill Wastes/Heart's Crag</p>
+              </td>
+              <td>Sim - Muito Raro</td>
+              <td><input type="checkbox">Sim</td>
+            </tr>
+            <tr>
+              <td>Bibarel</td>
+              <td>Normal</td>
+              <td>Água</td>
+              <td>
+                <p lang="en">Obsidian Fieldlands - Tidewater Dam (Alpha)</p>
+                <p lang="en">Crimson Mirelands - Gapejaw Bog (perto da marcação de Golden Lowlands)/Drowning Meadow</p>
+                <p lang="en">Cobalt Coastlands - Spring Path (perto de Islespy Shore)</p>
+                <p lang="en">Alabaster Icelands - Avalugg's Legacy</p>
+              </td>
+              <td>Não</td>
+              <td><input type="checkbox">Sim</td>
+            </tr>
+            <tr>
+              <td>Vaporeon</td>
+              <td>Água</td>
+              <td>--</td>
+              <td>
+                <p>Obtido apenas por meio de evolução de Eevee, com uma pedra de água (water stone)</p>
+              </td>
+              <td>Não</td>
+              <td><input type="checkbox">Sim</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+          </tbody>
+        </table>
+      </main>
   </body>
 </html>
-
