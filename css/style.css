@@ -1,16 +1,42 @@
+:root {
+  --background-cor-site: #f1dac0;
+  --titulo-principal: rgb(37, 24, 4);
+  --tipo-cor: black;
+  --agua-cor: #6890F0;
+  --dragao-cor: #6F35FC;
+  --eletrico-cor: #F7D02C;
+  --fada-cor: #EE99AC;
+  --fantasma-cor:#705898;
+  --fogo-cor:  	#F08030;
+  --gelo-cor: #98D8D8;
+  --grama-cor: #78C850;
+  --inseto-cor: #A8B820;
+  --lutador-cor: #C03028;
+  --metal-cor: #B8B8D0;
+  --normal-cor: #A8A878;
+  --noturno-cor: #705848;
+  --pedra-cor: #B8A038;
+  --psiquico-cor: #F85888;
+  --terra-cor: #E0C068;
+  --veneno-cor: #A040A0;
+  --voador-cor: #A890F0;
+  --outfit-fonte: 'Outfit', sans-serif;
+  --titulo-secundario: #6F35FC;
+}
+
 body {
   text-align: center;
   font-family:'Outfit', sans-serif;
-  background-color: #f1dac0;
-  color: #000000;
+  background-color: var(--background-cor-site);
+  color: var(--type-color);
 }
 
 h1 {
   text-align: center;
-  font-family: 'Outfit', sans-serif;
+  font-family: var(--outfit-fonte);
   font-weight: 500;
   font-size: 250%;
-  color:rgb(37, 24, 4);
+  color:var(--titulo-principal);
   margin: 1.5%;
 }
 
@@ -31,7 +57,7 @@ ul {
 }
 
 .tipos { 
-  background-color: #f1dac0;
+  background-color: var(--background-cor-site);
   max-width:35%;
   margin: auto;
   align-content: center;
@@ -47,11 +73,11 @@ ul {
 
 a:link{
   text-decoration: none;
-  color: black;
+  color: var(--type-color);
 }
 a:visited {
   text-decoration: none;
-  color: black;
+  color: var(--type-color);
 }
 
 #agua:hover {
@@ -62,7 +88,7 @@ a:visited {
 
 @keyframes background-color-agua {
     100% {
-      background-color: #6390F0;
+      background-color: var(--agua-cor);
     }
 }
 #dragao:hover {
@@ -73,7 +99,7 @@ a:visited {
 
 @keyframes background-color-dragao {
     100% {
-      background-color: #6F35FC;
+      background-color: var(--dragao-cor);
     }
 }
 
@@ -85,7 +111,7 @@ a:visited {
 
 @keyframes background-color-eletrico {
     100% {
-      background-color: #F7D02C;
+      background-color: var(--eletrico-cor);
     }
 }
 
@@ -97,7 +123,7 @@ a:visited {
 
 @keyframes background-color-fada {
     100% {
-      background-color: #D685AD;
+      background-color: var(--fada-cor);
     }
 }
 
@@ -109,7 +135,7 @@ a:visited {
 
 @keyframes background-color-fantasma {
     100% {
-      background-color: #735797;
+      background-color: var(--fantasma-cor);
     }
 }
 
@@ -121,7 +147,7 @@ a:visited {
 
 @keyframes background-color-fogo {
     100% {
-      background-color: #EE8130;
+      background-color: var(--fogo-cor);
     }
 }
 
@@ -133,7 +159,7 @@ a:visited {
 
 @keyframes background-color-gelo {
     100% {
-      background-color: #96D9D6;
+      background-color: var(--gelo-cor);
     }
 }
 
@@ -145,7 +171,7 @@ a:visited {
 
 @keyframes background-color-grama {
     100% {
-      background-color: #7AC74C;
+      background-color: var(--grama-cor);
     }
 }
 
@@ -157,7 +183,7 @@ a:visited {
 
 @keyframes background-color-inseto {
     100% {
-      background-color: #A6B91A;
+      background-color: var(--inseto-cor);
     }
 }
 
@@ -169,7 +195,7 @@ a:visited {
 
 @keyframes background-color-lutador {
     100% {
-      background-color: #C22E28;
+      background-color: var(--lutador-cor);
     }
 }
 
@@ -181,7 +207,7 @@ a:visited {
 
 @keyframes background-color-metal {
     100% {
-      background-color: #B7B7CE;
+      background-color: var(--metal-cor);
     }
 }
 
@@ -193,7 +219,7 @@ a:visited {
 
 @keyframes background-color-normal {
     100% {
-      background-color: #A8A77A;
+      background-color: var(--normal-cor);
     }
 }
 
@@ -205,7 +231,7 @@ a:visited {
 
 @keyframes background-color-noturno {
     100% {
-      background-color: #705746;
+      background-color: var(--noturno-cor);
     }
 }
 
@@ -217,7 +243,7 @@ a:visited {
 
 @keyframes background-color-pedra {
     100% {
-      background-color: #B6A136;
+      background-color: var(--pedra-cor);
     }
 }
 
@@ -229,7 +255,7 @@ a:visited {
 
 @keyframes background-color-psiquico {
     100% {
-      background-color: #F95587;
+      background-color: var(--psiquico-cor);
     }
 }
 
@@ -241,7 +267,7 @@ a:visited {
 
 @keyframes background-color-terra {
     100% {
-      background-color: #E2BF65;
+      background-color: var(--terra-cor);
     }
 }
 
@@ -253,7 +279,7 @@ a:visited {
 
 @keyframes background-color-veneno {
     100% {
-      background-color: #A33EA1;
+      background-color: var(--veneno-cor);
     }
 }
 
@@ -265,7 +291,7 @@ a:visited {
 
 @keyframes background-color-voador {
     100% {
-      background-color: #A98FF3;
+      background-color: var(--voador-cor);
     }
 }
 
@@ -273,8 +299,8 @@ h2 {
   font-weight: 800;
   font-size: 1.5em;
   line-height: 2;
-  background-color: #f1dac0;
-  color: #6F35FC;
+  background-color: var(--background-color-site);
+  color: var(--titulo-secundario);
   max-width: 30%;
   align-content: center;
   margin: auto;

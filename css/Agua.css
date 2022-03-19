@@ -1,4 +1,9 @@
+:root{
+    --background-agua: #6890F0;
+    --outfit-fonte: 'Outfit', sans-serif;
+}
+
 body {
-    background-color: #6390F0;
-    font-family: 'Outfit', sans-serif;
+    background-color: var(--background-agua);
+    font-family: var(--outfit-fonte)
 }
