@@ -301,7 +301,6 @@ a:visited {
   font-weight: 800;
   font-size: 1.5em;
   line-height: 2;
-  background-color: var(--background-color-site);
   color: var(--titulo-secundario);
   max-width: 30%;
   align-content: center;
@@ -309,4 +308,5 @@ a:visited {
   text-align: center;
   padding: 0.2rem;
   margin-top: 2.1em;
+  background-color: var(--background-cor-site);
 }
