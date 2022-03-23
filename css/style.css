@@ -27,8 +27,9 @@
 body {
   text-align: center;
   font-family:'Outfit', sans-serif;
-  background-image: url(../img/characters.png);
-  background-size: contain;
+  background-image: url(../img/PLA.jpg);
+  background-position:top;
+  background-size: auto;
   color: var(--type-color);
   background-color: var(--background-cor-site);
 }
