@@ -7,3 +7,16 @@ body {
     background-color: var(--background-agua);
     font-family: var(--outfit-fonte)
 }
+
+h1{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 5vw;
+    font-weight: bold;
+    margin-bottom: 2%;
+}
+
+table {
+    align-self: center;
+}
+
